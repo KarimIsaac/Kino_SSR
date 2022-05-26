@@ -1,0 +1,8 @@
+<div class="big-movie">
+  <h1>{{movie.attributes.title}}</h1>
+  {{{markdown movie.attributes.intro}}}
+
+
+  {{#if movie.attributes.image}}
+    <img src="{{movie.attributes.image.url}}" />
+  {{/if}}

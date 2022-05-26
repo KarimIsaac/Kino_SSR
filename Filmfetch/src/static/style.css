@@ -1,0 +1,42 @@
+body {
+
+  background-color: rgb(156, 156, 156);
+  color: white;
+}
+
+header {
+ color: black;
+  text-align: center;
+  font-size: 18px;
+}
+
+.main-container {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+ img{
+width: 850px;
+
+
+ }
+.big-movie img{
+  width: 360px;
+ 
+}
+
+.big-movie a{
+  color: #000000;
+}
+.small-movie img {
+  width: 356px;
+  height: 356px;
+}
+
+.small-movie a {
+  color: black;
+}
+
